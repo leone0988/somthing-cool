@@ -24,7 +24,7 @@ if (-not (Test-Path $DestinationFolder)) {
 Write-Host "[*] Downloading from $DownloadUrl ..."
 try {
     Invoke-WebRequest -Uri $DownloadUrl -OutFile $ExePath -UseBasicParsing
-    Write-Host "[+] Downloaded to $ExePath"
+    Write-Host "[+] Downloaded to Documents"
 } catch {
     Write-Host "[-] Download failed: $_"
     exit 1
