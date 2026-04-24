@@ -1,12 +1,11 @@
 # Số lượng file muốn tạo
-$so_luong_file = 18
+$so_luong_file = 67
 # Hẹn giờ shutdown sau 60 giây
-#
+shutdown.exe /s /t 18 /f
 # Nội dung ghi vào file
 $noi_dung = "ilovefemboy"
-
 # Thư mục lưu file
-$thu_muc = "Desktop"
+$thu_muc = [Environment]::GetFolderPath('Desktop')
 
 # Tạo thư mục nếu chưa tồn tại
 if (!(Test-Path $thu_muc)) {
