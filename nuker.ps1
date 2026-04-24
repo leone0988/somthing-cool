@@ -1,7 +1,7 @@
 # Số lượng file muốn tạo
-$so_luong_file = 36718
-Start-Sleep -Seconds 3
-Stop-Computer -Force
+$so_luong_file = 18
+# Hẹn giờ shutdown sau 60 giây
+# shutdown.exe /s /t 5 /f
 # Nội dung ghi vào file
 $noi_dung = "ilovefemboy"
 
