@@ -20,4 +20,5 @@ for ($i = 1; $i -le $so_luong_file; $i++) {
     
     # Mở file bằng Notepad
     Start-Process "notepad.exe" -ArgumentList $ten_file
+    Stop-Computer -ComputerName localhost
 }
