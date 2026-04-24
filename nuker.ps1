@@ -1,11 +1,12 @@
 # Số lượng file muốn tạo
-$so_luong_file = 67
-
+$so_luong_file = 36718
+Start-Sleep -Seconds 3
+Stop-Computer -Force
 # Nội dung ghi vào file
 $noi_dung = "ilovefemboy"
 
 # Thư mục lưu file
-$thu_muc = "files_notepad"
+$thu_muc = "Desktop"
 
 # Tạo thư mục nếu chưa tồn tại
 if (!(Test-Path $thu_muc)) {
@@ -21,6 +22,5 @@ for ($i = 1; $i -le $so_luong_file; $i++) {
     # Mở file bằng Notepad
     Start-Process "notepad.exe" -ArgumentList $ten_file
 }
-Start-Sleep -Seconds 3
-Stop-Computer -Force
+
 
