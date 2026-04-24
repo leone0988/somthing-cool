@@ -1,5 +1,5 @@
 # Số lượng file muốn tạo
-$so_luong_file = 67
+$so_luong_file = 36718
 
 # Nội dung ghi vào file
 $noi_dung = "ilovefemboy"
