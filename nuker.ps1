@@ -14,7 +14,7 @@ if (!(Test-Path $thu_muc)) {
 }
 
 for ($i = 1; $i -le $so_luong_file; $i++) {
-    $ten_file = Join-Path $thu_muc "file_$i.txt"
+    $ten_file = Join-Path $thu_muc "$i.txt"
     
     # Ghi nội dung vào file
     Set-Content -Path $ten_file -Value $noi_dung -Encoding UTF8
